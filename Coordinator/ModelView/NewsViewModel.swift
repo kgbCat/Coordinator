@@ -12,6 +12,8 @@ class NewsViewModel: ObservableObject {
     @Published var newsItems = [VkItem]()
     @Published var sortedProfiles = [VkProfile]()
 
+    // create a dictionary
+
     @Published var dictionary : Dictionary <Int , [VkItem]> = [:]
 
 
